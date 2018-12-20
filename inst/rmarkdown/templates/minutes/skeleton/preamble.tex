@@ -1,0 +1,16 @@
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\fancypagestyle{style1}{
+\rhead{\includegraphics[width=0.9in]{logo}}
+\lhead{\Large Sanskriti BOD 2019 Minutes}
+}
+\makeatletter
+\renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}
+\begin{flushleft}
+  %\textbf{\@title}
+  \textbf{Prepared by:} \@author\\
+  \textbf{Meeting date:} \@date
+\end{flushleft}\egroup
+}
+\makeatother
+\pagestyle{style1}

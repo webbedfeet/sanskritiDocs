@@ -1,0 +1,36 @@
+---
+title: Sanskriti BOD 2019 Minutes
+author: Abhijit Dasgupta
+date: December 15, 2018
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float: true
+    theme: journal
+  word_document:
+    toc: true
+    toc_depth: 4
+    reference_docx: ../MinuteTemplate.docx
+  pdf_document:
+    latex_engine: xelatex
+    keep_tex: true
+    toc: true
+    toc_depth: 4
+    includes:
+      in_header: preamble.tex
+      before_body: doc-prefix.tex
+fontsize: 12pt
+geometry: margin=0.75in, letterpaper, head = 2cm, includehead
+mainfont: "Charter"
+---
+
+## Attendees
+
+|              |                                                                                                              |
+| ------------ | ------------------------------------------------------------------------------------------------------------ |
+| **Present:** | Jayati Bera, Abhijit Dasgupta, Lina Chakraborty, Arunima Ghosh, Chiranjib Sanyal, Swapan Sinha, Nabanita Nag |
+| **Absent:**  | Sanjoy Bose, Soumyadeep Dey                                                                                  |
+\newpage
+
+# Agenda

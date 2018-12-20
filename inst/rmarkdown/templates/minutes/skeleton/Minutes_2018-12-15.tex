@@ -1,0 +1,520 @@
+\documentclass[12pt,]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+    \setmainfont[]{Comic Sans MS}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=0.75in, letterpaper, head = 2cm, includehead]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Sanskriti BOD 2019 Minutes},
+            pdfauthor={Abhijit Dasgupta},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Sanskriti BOD 2019 Minutes}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{Abhijit Dasgupta}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{December 15, 2018}
+
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\fancypagestyle{style1}{
+\rhead{\includegraphics[width=0.9in]{logo}}
+\lhead{\Large Sanskriti BOD 2019 Minutes}
+}
+\makeatletter
+\renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}
+\begin{flushleft}
+  %\textbf{\@title}
+  \textbf{Prepared by:} \@author\\
+  \textbf{Meeting date:} \@date
+\end{flushleft}\egroup
+}
+\makeatother
+\pagestyle{style1}
+
+\begin{document}
+\maketitle
+
+%\maketitle
+\thispagestyle{style1}
+
+{
+\setcounter{tocdepth}{4}
+\tableofcontents
+}
+\hypertarget{attendees}{%
+\subsection{Attendees}\label{attendees}}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{0.09\columnwidth}\raggedright
+\textbf{Present:}\strut
+\end{minipage} & \begin{minipage}[t]{0.85\columnwidth}\raggedright
+Jayati Bera, Abhijit Dasgupta, Lina Chakraborty, Arunima Ghosh,
+Chiranjib Sanyal, Swapan Sinha, Nabanita Nag\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.09\columnwidth}\raggedright
+\textbf{Absent:}\strut
+\end{minipage} & \begin{minipage}[t]{0.85\columnwidth}\raggedright
+Sanjoy Bose, Soumyadeep Dey\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\newpage
+
+\hypertarget{puja-schedule}{%
+\subsection{Puja Schedule}\label{puja-schedule}}
+
+The proposed schedule for Saraswati Puja was circulated:
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+Day & Event & Time\tabularnewline
+\midrule
+\endhead
+Friday & Decoration \& kitchen setup & 8:00 - 11:00 AM\tabularnewline
+& &\tabularnewline
+Saturday & Puja Prep & 10:00 AM\tabularnewline
+& Puja/Hate-khodi & 11:00AM -- 1:00 PM\tabularnewline
+& Prasad \& Lunch & 1:00 to 2:30 PM\tabularnewline
+& Recitation \& Drawing competition & 1:00 to 4:00 PM\tabularnewline
+& Cultural Program & 4:00 to 8:00 PM\tabularnewline
+& Dinner & 8:00 to 9:30 PM\tabularnewline
+& Clean-up & till 11:00 PM\tabularnewline
+\bottomrule
+\end{longtable}
+
+It was felt that starting setup at 8pm on Friday was too late for a
+winter evening, and that we needed to start lunch earlier to accommodate
+an early start to the children's competitions, which in turn would allow
+an earlier start to the cultural program. The following modifications
+were proposed and approved by the board:
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Event & Modified Time\tabularnewline
+\midrule
+\endhead
+Friday set-up & 7:00 - 11:00 pm\tabularnewline
+Lunch & 12:30 - 2:30 pm\tabularnewline
+Kid's program & 1:00 - 3:00 pm\tabularnewline
+Cultural program & 3:00 - 8:00 pm\tabularnewline
+\bottomrule
+\end{longtable}
+
+Ms.~Ghosh informed the Board that the audio engineer had requested 90
+minutes for setup before the first program. There was concern that there
+was insufficient buffer time at the beginning to allow proper audio
+setup, so it was proposed that we rent the auditorium an hour earlier to
+ensure a timely start to the cultural program at 3:00 pm.
+
+\hypertarget{action-items}{%
+\paragraph{Action items}\label{action-items}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The \textbf{President} will request Montgomery County (Ms.~King) to
+  extend the rental so we have access to the cafeteria and kitchen at 7
+  pm on Friday, February 8 and the auditorium at 1:00 PM on Saturday,
+  February 9.
+\item
+  The Board will prepare the first announcement for Saraswati Puja, to
+  be distributed December 26. This will also announce the opening of
+  online registration.
+\item
+  Mr.~Dasgupta will prepare the online registration system reflecting
+  the rates decided (see below)
+\item
+  Mr.~Dasgupta will post the Saraswati Puja ``Save the date'' and will
+  follow up with the announcement on December 26.
+\end{enumerate}
+
+\hypertarget{puja}{%
+\subsection{Puja}\label{puja}}
+
+Ms.~Bera informed us that Mr.~Bandy was very resistant to continuing his
+service as the main priest for Puja in 2019, stating concerns about his
+advancing age and having to drive at night. She proposed several
+potential alternatives, including Somesh Chattopadhay, Bidhan
+Chakraborty, Biswajit Chatterjee and Nilotpal Kundagrami. There was also
+an option to have one of the above perform Puja while Mrs Aloka
+Chakravarty recited the \emph{shlokas}, since there was positive
+feedback from Durga Puja 2018 about her pronounciation and abilities.
+Given the short time remaining till Saraswati Puja, it was decided that
+Ms.~Bera would call Mr.~Bandy again to request that he perform Saraswati
+Puja for this year, allowing us to decide on replacement(s) for Durga
+Puja, buying us a bit of time for this important role.
+
+The issue of saris used during Puja and their distribution was raised.
+Ms.~Bera reminded us that in the past, saris offered for puja were kept
+and given as prizes during the year, for example, during the picnic.
+This year, saris were distributed by Mr.~Bandy to the ladies present and
+helping during Puja, but not to all the helpers or in any systematic
+manner, leading to some discontent. She also reminded us that in the
+past, Sanskriti had provided good quality saris for puja, and also given
+sweaters to Mr.~Bandy and his helper(s) as a token of appreciation. She
+proposed that we authorize Mr.~Manik Ghosh, who will be visiting Kolkata
+this winter, to purchase 2 saris for Puja, with a budget of Rs. 2500 for
+each sari, to ensure a reasonable quality is purchased. This translates
+to a budget item of \$100 for sari purchase.
+
+\hypertarget{action-items-1}{%
+\paragraph{Action items}\label{action-items-1}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The President will call Mr.~Bandy again to request he perform priest
+  duties this Saraswati Puja. She will inform the Board of the results
+  of this conversation.
+\end{enumerate}
+
+\hypertarget{food}{%
+\subsection{Food}\label{food}}
+
+Mr.~Sanyal reassured the Board that he is willing and available to
+continue leading the food efforts during Puja this year. Mr.~Sinha will
+be assisting him in this area.
+
+Mr.~Sinha proposed that we might want to have some extra trays of food
+on hand since members liked to take home any available extra food
+\emph{(this was my understanding)}
+
+The menu for Saraswati Puja was decided, mainly in line with the 2018
+menu.
+
+\textbf{Friday}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Adults & Kids\tabularnewline
+\midrule
+\endhead
+Chanachur & Cheese Pizza\tabularnewline
+Muri &\tabularnewline
+Bonde &\tabularnewline
+\bottomrule
+\end{longtable}
+
+\textbf{Saturday}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+Meal & Adults & Kids\tabularnewline
+\midrule
+\endhead
+Lunch & Khichuri & Pizza\tabularnewline
+& Labra & Juice\tabularnewline
+& Veg cutlet & Chips\tabularnewline
+& Beguni/aloo bhaja & Cupcake\tabularnewline
+& &\tabularnewline
+Snack & Muri & Chicken nuggets\tabularnewline
+& Chanachur & Juice\tabularnewline
+& Singara &\tabularnewline
+& &\tabularnewline
+Dinner & Peas pulao & Chicken noodles\tabularnewline
+& Chholar daal & Grilled chicken piece\tabularnewline
+& Goat curry & Brownie bites\tabularnewline
+& Cabbage with peas &\tabularnewline
+& Dhokar dalna / malai kofta &\tabularnewline
+& (missing dessert) &\tabularnewline
+\bottomrule
+\end{longtable}
+
+It was decided that this contract would go to Spice Grill given their
+excellent performance in 2018. Singara may be procured from Ritu Sharma.
+
+\hypertarget{decoration}{%
+\subsection{Decoration}\label{decoration}}
+
+Mr.~Haripada Sarker will continue to lead the decoration efforts.
+Mr.~Dasgupta will work with Mr.~Sarker to recruit young volunteers to
+help him.
+
+Mr.~Anutosh Saha, who has kindly stored all puja decorations in his home
+for several years, intimated to Mr.~Ghosh (past-president) that he would
+like the decorations moved so he could carry out some home renovations.
+It was felt that despite the increased costs, it would be best to obtain
+a larger storage to store all of Sanskriti's materials, and that
+well-wishers may possibly offset the increased cost. However, since it
+would be difficult to get a storage in this short time, Ms.~Bera would
+request Mr.~Saha to let us store the materials till Durga Puja. At that
+point, a new storage facility will be rented and all the materials,
+which will be used at Durga Puja anyway, could be stored in the new
+location after Puja.
+
+\hypertarget{action-items-2}{%
+\paragraph{Action items}\label{action-items-2}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Ms Bera, and Mssrs. Dasgupta and Sanyal will create a list of
+  potential storage locations and call them to find out about prices.
+  Mr.~Dasgupta will contact the current storage facility to find out
+  about the size of the current storage.
+\item
+  Ms.~Bera will call Mr.~Saha to discuss this arrangement and whether he
+  is amenable to it. She will report back to the Board.
+\end{enumerate}
+
+\hypertarget{cultural-program}{%
+\subsection{Cultural Program}\label{cultural-program}}
+
+Ms.~Bera reminded us of the rules and principles to be followed in
+deciding upon acts who will perform at Saraswati Puja:
+
+\begin{itemize}
+\tightlist
+\item
+  Support new groups who have not performed recently
+\item
+  Large groups get priority
+\item
+  All participants must register for Puja
+\end{itemize}
+
+She also stated that the final acts as decided by the cultural secretary
+be discussed in board.
+
+Ms.~Ghosh informed the Board that the deadline for applications was
+midnight on the 15th, so applications were still coming in. Thus far, 3
+dance groups, 2 drama troupes (Cultural Creation and Anubrata Choudhury)
+and several music acts had applied. From local artists, there would be 3
+dance performances, one each by elementary, middle school and high
+school kids, directed by Ms.~Priyanka Das, Ms.~Arpita Sabud and
+Ms.~Swati Choudhury, respectively. Both drama applications were highly
+regarded as well. There was an application for an opening musical act
+featuring Shardul Ghosh on sitar and Abjini Chattopadhyay on piano. Both
+are talented young artists. In terms of paid guest artists, there were
+three contenders:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Shekhar Das, playing Electric Guitar (30 mins, \$300)
+\item
+  Diptanu Das accompanied by a male lead and a small band, singing
+  Bangla + Hindi songs (\$1000)
+\item
+  Biplab, also a singing act
+\end{enumerate}
+
+After a robust discussion of the composition of the portfolio of acts
+performing at Saraswati Puja and listening to recordings of the
+potential guest artists, it was decided that both Mr.~Shekhar Das and
+Ms.~Diptanu Das would be approached to perform, and that their charges
+would be negotiated, with a starting position of \$250 for Mr.~Shekhar
+Das and \$700 for Ms.~Diptanu Das.
+
+The timings for the cultural program will be as follows:
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Time & Event\tabularnewline
+\midrule
+\endhead
+3:00-5:30 & Program\tabularnewline
+5:30 - 6:30 & Break (sound test for guest artiste)\tabularnewline
+6:30 - 6:45 & Prize distribution for children\tabularnewline
+6:30 - 8:00 & Program\tabularnewline
+\bottomrule
+\end{longtable}
+
+\textbf{Kid's competitions}
+
+Mr.~Sinha will lead the kid's competitions like last year. Both the
+drawing and recitation competitions will be held in 3 age groups: 6-8,
+9-11, 12-14. The drawing competition will be held first in the interests
+of time, since many participating children will also be in the cultural
+programs in the evening. Mr.~Sinha solicited suggestions for poems and
+drawing topics from the Board.
+
+\hypertarget{action-items-3}{%
+\paragraph{Action items}\label{action-items-3}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Ms.~Ghosh and Ms.~Bera will negotiate with Mr.~Shekhar Das and
+  Ms.~Diptanu Das regarding renumeration for performing at Saraswati
+  Puja, and will report back to the Board
+\item
+  Mr.~Sinha will circulate drawing topics and poems to the Board, and
+  these will be finalized by December 26, when the first Saraswati Puja
+  newsletter will be distributed
+\item
+  Mr.~Sinha will work on finding judges for the various competitions as
+  well as a senior member of the community who will distribute prizes.
+  He solicited the Board's help in this.
+\end{enumerate}
+
+\hypertarget{subscription}{%
+\subsection{Subscription}\label{subscription}}
+
+It was decided to keep the same subscription rates as last year, with
+the modification that the family rate would include 2 children aged 6-18
+years.
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+Member & Early bird special (12/26-1/19) & Online (1/20-2/3) & At the
+gate\tabularnewline
+\midrule
+\endhead
+Individual & \$35 & \$40 & \$45\tabularnewline
+Couple & \$65 & \$75 & \$85\tabularnewline
+Student & \$20 & \$25 & \$30\tabularnewline
+Child/Dependent Parent & \$20 & \$25 & \$25\tabularnewline
+Family (2 adults + 2 children 6-18 years) & \$105 & \$120 &
+\$130\tabularnewline
+Child (5 and below) & Free & Free & Free\tabularnewline
+\bottomrule
+\end{longtable}
+
+Vendors will be charged \$150 and we will entertain a maximum of 10
+vendors
+
+\hypertarget{rental-agreement}{%
+\subsection{Rental agreement}\label{rental-agreement}}
+
+The rental agreement was received, along with a receipt of payment.
+
+\hypertarget{action-items-4}{%
+\paragraph{Action items}\label{action-items-4}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Ms.~Bera will request additional rentals of 1 hour for the cafeteria
+  on Friday and the auditorium on Saturday. Ms.~Chakraborty will pay the
+  additional fee when the invoice is received.
+\item
+  Ms.~Bera, and Mssrs. Dasgupta and Bose will take the Facility
+  Training.
+\end{enumerate}
+
+\hypertarget{newsletter}{%
+\subsection{Newsletter}\label{newsletter}}
+
+It was decided to revive the annual newsletter. Mssrs. Dasgupta and Bose
+will lead this. The dates for the Sanskriti events for 2019 were
+tentatively fixed:
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+Event & Date & Location\tabularnewline
+\midrule
+\endhead
+Baisakhi & April 20, 2019 & County middle school\tabularnewline
+Picnic & Sept 7, 2019 & County park\tabularnewline
+Durga Puja & October 4-6, 2019 & Preferably Gaithersburg HS or Northwest
+HS\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{transfers-from-bod-18}{%
+\subsection{Transfers from BOD 18}\label{transfers-from-bod-18}}
+
+\hypertarget{action-items-5}{%
+\paragraph{Action items}\label{action-items-5}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Ms.~Bera will receive the storage key from Mr.~Ghosh via Ms.~Nag
+\item
+  Mr.~Dasgupta will update all e-mail accounts to reflect new membership
+\item
+  Mr.~Dasgupta will work with the new members in the onboarding process
+\item
+  Mr.~Dasgupta will add Ms.~Bera to both the
+  \href{mailto:president@sanskriti-dc.org}{\nolinkurl{president@sanskriti-dc.org}}
+  and
+  \href{mailto:culsec@sanskriti-dc.org}{\nolinkurl{culsec@sanskriti-dc.org}}
+  accounts
+\end{enumerate}
+
+
+\end{document}
