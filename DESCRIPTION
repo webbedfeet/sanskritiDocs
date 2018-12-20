@@ -5,8 +5,8 @@ Version: 0.1.0
 Author: Abhijit Dasgupta
 Maintainer: Abhijit Dasgupta <aikidasgupta@gmail.com>
 Description: This package provides templates for Sanskriti DC documents like Board Meeting Minutes 
-    and newsletters
-License: CC-BY-SA
+    and newsletters. The current logo is included in the typesetting.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/webbedfeet/sanskritiDocs
